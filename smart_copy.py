@@ -29,3 +29,17 @@ for file_name in os.listdir(src):
         shutil.copy(full_file_name, dest)
         print(f"{file_name} copied to {dest_srv}")
         os.system("net use * /delete /y 2>&1>null")
+
+
+# A version using slicing below:
+
+for file_name in os.listdir(src):
+    dest_srv = file_name[14:-4] # This will also work and produce the same result as the regex*.
+    full_file_name = os.path.join(src, file_name)
+    dest = os.path.join(d_sl, dest_srv, dest_fin)
+    if os.path.isfile(full_file_name):
+        dest = os.path.join(d_sl, dest_srv, dest_fin)
+        os.system(f"net use {dest} /user:{username} {password} 2>&1>null")
+        shutil.copy(full_file_name, dest)
+        print(f"{file_name} copied to {dest_srv}")
+        os.system("net use * /delete /y 2>&1>null")
