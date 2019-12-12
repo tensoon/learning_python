@@ -2,12 +2,16 @@ import csv
 
 src = r'C:\Users\balin\Desktop\Source\credentials.csv'
 
-with open(src, 'r') as creds:
-    reader = csv.DictReader(creds)
-    for line in reader:
-        host = str(line['host'])
-        username = str(line['username'])
-        password = str(line['password'])
+def get_creds(src):
+    with open(src, 'r') as creds:
+        reader = csv.DictReader(creds)
+        for line in reader:
+            host = str(line['host'])
+            username = str(line['username'])
+            password = str(line['password'])
+    return host, username, password
 
 
-print(host, username, password)
+host, username, password = (get_creds(src))
+
+print(username)
