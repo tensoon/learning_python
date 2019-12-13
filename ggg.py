@@ -1,14 +1,13 @@
 from ftplib import FTP
-import csv
+from configparser import ConfigParser
 
 src = r'the path to your credentials and hostname'
 
-with open(src, 'r') as creds:
-    reader = csv.DictReader(creds)
-    for line in reader:
-        host = str(line['host'])
-        username = str(line['username'])
-        password = str(line['password'])
+config = ConfigParser()
+config.read(src)
+host = config['FTP']['host']
+username = config['FTP']['username']
+password = config['FTP']['password']
 
 # Connect and list contents.
 ftp = FTP(host=host)

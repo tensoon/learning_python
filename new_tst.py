@@ -1,17 +1,21 @@
-import csv
+from configparser import ConfigParser
 
-src = r'C:\Users\balin\Desktop\Source\credentials.csv'
+src = r"C:\Users\balin\Desktop\Source\config.ini"
 
-def get_creds(src):
-    with open(src, 'r') as creds:
-        reader = csv.DictReader(creds)
-        for line in reader:
-            host = str(line['host'])
-            username = str(line['username'])
-            password = str(line['password'])
-    return host, username, password
+config = ConfigParser()
 
+config.read(src)
+host = config['FTP']['host']
+username = config['FTP']['username']
+password = config['FTP']['password']
 
-host, username, password = (get_creds(src))
+print(host, username, password)
 
-print(username)
+'''config['FTP'] = {
+    'host': 'mft.coppclark.com',
+    'username': 'Morningstar',
+    'password': '9a-6L7Rh'
+}
+
+with open('config.ini', 'w') as f:
+    config.write(f)'''
