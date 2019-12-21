@@ -1,9 +1,12 @@
 import csv
 import json
 
-with open('test.csv') as f:
-    reader = csv.DictReader(f)
-    rows = list(reader)
+def csvtojson(src, dst):
+    with open(src) as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
 
-with open('test.json', 'w') as f:
-    json.dump(rows, f)
+    with open(dst, 'w') as f:
+        json.dump(rows, f)
+
+csvtojson('test.csv', 'test.file.json')
