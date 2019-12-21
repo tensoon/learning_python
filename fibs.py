@@ -27,5 +27,5 @@ def fib2(n):
     elif n > 2:
         return fib2(n-1) + fib2(n-2)
 
-for n in range(1, 501):
+for n in range(1, 1001):
     print(f"{n} : {fib2(n)}")

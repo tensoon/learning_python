@@ -1,6 +1,6 @@
 from configparser import ConfigParser
 
-src = r"C:\Users\balin\Desktop\Source\config.ini"
+src = r"/path/to/config/file"
 
 config = ConfigParser()
 
@@ -12,9 +12,9 @@ password = config['FTP']['password']
 print(host, username, password)
 
 '''config['FTP'] = {
-    'host': 'mft.coppclark.com',
-    'username': 'Morningstar',
-    'password': '9a-6L7Rh'
+    'host': 'url.goes.here',
+    'username': 'username',
+    'password': 'password'
 }
 
 with open('config.ini', 'w') as f:
