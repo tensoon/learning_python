@@ -31,7 +31,7 @@ def random_walk_2(n):
         y += dy
     return (x, y)
 
-number_of_walks = 10000
+number_of_walks = 15000
 
 for walk_length in range(1, 31):
     no_transport = 0
