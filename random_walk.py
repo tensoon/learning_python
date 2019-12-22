@@ -22,7 +22,6 @@ for i in range(25):
     print(walk, "Distance from home = ", abs(walk[0]) + abs(walk[0]))"""
 
 
-
 def random_walk_2(n):
     x, y = 0, 0
     for i in range(n):
@@ -30,6 +29,7 @@ def random_walk_2(n):
         x += dx
         y += dy
     return (x, y)
+
 
 number_of_walks = 15000
 
@@ -41,4 +41,10 @@ for walk_length in range(1, 31):
         if distance <= 4:
             no_transport += 1
     no_transport_percentage = float(no_transport) / number_of_walks
-    print("Walk size = ", walk_length, " / % of no trnasport = ", 100 * no_transport_percentage)
+    print(
+        "Walk size = ",
+        walk_length,
+        " / % of no trnasport = ",
+        100 * no_transport_percentage,
+    )
+
