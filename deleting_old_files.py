@@ -1,8 +1,8 @@
 import os, time, sys
 
-folder_path = r"C:\Users\nbalinsk\Downloads"
+folder_path = r"C:\Users\balin\Downloads"
 # file_ends_with = ".txt" < -- Specific file type to be deleted
-days = 1
+days = 0
 
 now = time.time()
 only_files = []
