@@ -32,7 +32,7 @@ def send_email():
     server.starttls()
     server.ehlo()
 
-    server.login("balinski.n@gmail.com", "tdmvpzvhdyjusoee")
+    server.login("balinski.n@gmail.com", "password")
 
     subject = "PRICE ALERT!!! - VGA GeForce RTX 2080 Ti FTW3 ULTRA GAMING"
     body = "Follow the link: https://www.amazon.co.uk/dp/B07K6H583G/?coliid=ILF3LQY0QDM0S&colid=1JTQ8MQFGDJJI&psc=1&ref_=lv_ov_lig_dp_it"
