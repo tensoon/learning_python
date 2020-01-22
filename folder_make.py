@@ -1,10 +1,9 @@
 import os
 
 BasePath = input("Where do you want to make your folder?: ")
-FolderFiles = input("Enter the file name to refer: ")
-SubFolder = input("Is there any subfolders you want to create: ")
+FolderFiles = input("Enter the file name to refer: ") #txt file with list of Folder Names
+SubFolder = input("Are there any subfolders you want to create?(separated by Comma (example \"In,Out,Movies,Pictures\"): ")
 x = SubFolder.split(",")
-
 
 with open(FolderFiles, "r") as f:
     mklst = f.read().splitlines()
