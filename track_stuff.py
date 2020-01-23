@@ -48,3 +48,4 @@ check_price()
 """while True:
     check_price()
     time.sleep(43200)"""
+# adding a comment for testing
