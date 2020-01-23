@@ -11,8 +11,8 @@ headers = {
 
 # Simple price check reading the required section from the website and then converitng the price to a float
 def check_price():
-    page = requests.get(url, headers=headers)
-    soup = BeautifulSoup(page.content, "html.parser")
+    page = requests.get(url, headers=headers) # getting the contents of the page
+    soup = BeautifulSoup(page.content, "html.parser") # parsing the page
 
     price = soup.find(id="priceblock_ourprice").get_text()
     strip_price = price[1:6]
