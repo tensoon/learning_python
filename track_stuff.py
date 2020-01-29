@@ -14,12 +14,12 @@ def check_price():
     page = requests.get(url, headers=headers) # getting the contents of the page
     soup = BeautifulSoup(page.content, "html.parser") # parsing the page
 
-    price = soup.find(id="priceblock_ourprice").get_text()
+    price = soup.find(id="priceblock_dealprice").get_text()
     strip_price = price[1:6]
     replaced_str = strip_price.replace(",", ".")
     final_price = float(replaced_str)
 
-    if final_price <= 1.200:
+    if final_price <= 1.249:
         print("The price target has been hit!\nSending email now.")
         send_email()
     else:
