@@ -11,8 +11,8 @@ headers = {
 
 # Simple price check reading the required section from the website and then converitng the price to a float
 def check_price():
-    page = requests.get(url, headers=headers) # getting the contents of the page
-    soup = BeautifulSoup(page.content, "html.parser") # parsing the page
+    page = requests.get(url, headers=headers)  # getting the contents of the page
+    soup = BeautifulSoup(page.content, "html.parser")  # parsing the page
 
     price = soup.find(id="priceblock_dealprice").get_text()
     strip_price = price[1:6]
@@ -25,6 +25,7 @@ def check_price():
     else:
         print("Price has not reached the desired level.\nWill check again in 12 hours.")
 
+
 # Create an instance of an SMTP server to facilitate the sending of emails
 def send_email():
     server = smtplib.SMTP("smtp.gmail.com", 587)
@@ -33,14 +34,15 @@ def send_email():
     server.ehlo()
 
     server.login("balinski.n@gmail.com", "password")
-# Creates the subject and body of the email
+    # Creates the subject and body of the email
     subject = "PRICE ALERT!!! - VGA GeForce RTX 2080 Ti FTW3 ULTRA GAMING"
     body = "Follow the link: https://www.amazon.co.uk/dp/B07K6H583G/?coliid=ILF3LQY0QDM0S&colid=1JTQ8MQFGDJJI&psc=1&ref_=lv_ov_lig_dp_it"
     msg = f"Subject: {subject}\n\n{body}"
 
     server.sendmail("balinski.n@gmail.com", "son1k@protonmail.com", msg)
-# Kill the server.
+    # Kill the server.
     server.quit()
+
 
 check_price()
 
