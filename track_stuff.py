@@ -33,13 +33,13 @@ def send_email():
     server.starttls()
     server.ehlo()
 
-    server.login("balinski.n@gmail.com", "password")
+    server.login("email", "password")
     # Creates the subject and body of the email
     subject = "PRICE ALERT!!! - VGA GeForce RTX 2080 Ti FTW3 ULTRA GAMING"
     body = "Follow the link: https://www.amazon.co.uk/dp/B07K6H583G/?coliid=ILF3LQY0QDM0S&colid=1JTQ8MQFGDJJI&psc=1&ref_=lv_ov_lig_dp_it"
     msg = f"Subject: {subject}\n\n{body}"
 
-    server.sendmail("balinski.n@gmail.com", "son1k@protonmail.com", msg)
+    server.sendmail("email", "email", msg)
     # Kill the server.
     server.quit()
 
