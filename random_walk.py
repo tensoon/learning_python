@@ -47,4 +47,3 @@ for walk_length in range(1, 31):
         " / % of no trnasport = ",
         100 * no_transport_percentage,
     )
-
