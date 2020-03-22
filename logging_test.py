@@ -1,7 +1,7 @@
 import logging
 
 # Create and config logger
-LOG_FORMAT = "%(levelname)s - %(name)s - %(asctime)s - %(message)s"
+LOG_FORMAT = "%(asctime)s - [%(levelname)s] - <%(name)s> - %(message)s"
 
 logging.basicConfig(
     filename="logging_test.log", level=logging.DEBUG, format=LOG_FORMAT, filemode="w"
