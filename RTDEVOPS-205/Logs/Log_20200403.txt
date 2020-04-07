@@ -1,0 +1,68 @@
+2020-04-03 14:33:25,538 - <134>Apr 03 14:33:25 UK-DTXRST2 SendStatsChecker - Starting Config check for OneMoreFeedHandler.
+2020-04-03 14:33:25,539 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 14:33:25,541 - <134>Apr 03 14:33:25 UK-DTXRST2 SendStatsChecker - Config check complete with no issues for OneMoreFeedHandler.
+2020-04-03 14:33:25,541 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 14:33:27,090 - <134>Apr 03 14:33:27 UK-DTXRST2 SendStatsChecker - Starting Config check for SomeFeedhandler.
+2020-04-03 14:33:27,090 - INFO - Starting Config check for SomeFeedhandler. 
+2020-04-03 14:33:27,102 - <130>Apr 03 14:33:27 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-03 14:33:27,102 - CRITICAL - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI 
+2020-04-03 14:33:28,602 - <134>Apr 03 14:33:28 UK-DTXRST2 SendStatsChecker - Starting Config check for SomeOtherFeedhandler.
+2020-04-03 14:33:28,611 - INFO - Starting Config check for SomeOtherFeedhandler. 
+2020-04-03 14:33:28,612 - <130>Apr 03 14:33:28 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeOtherFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker\SomeOtherFeedHandler\NewIce.INI
+2020-04-03 14:33:28,613 - CRITICAL - Feedhandler=SomeOtherFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker\SomeOtherFeedHandler\NewIce.INI 
+2020-04-03 15:01:37,661 - <134>Apr 03 15:01:37 UK-DTXRST2 SendStatsChecker - Starting Config check for OneMoreFeedHandler.
+2020-04-03 15:01:37,661 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 15:01:37,663 - <134>Apr 03 15:01:37 UK-DTXRST2 SendStatsChecker - Config check complete with no issues for OneMoreFeedHandler.
+2020-04-03 15:01:37,663 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:24:03,101 - <130>Apr 03 16:24:03 UK-DTXRST2 SendStatsChecker - Feedhandler=OneMoreFeedHandler, Status=Failed, Reason="Sendstats file not found", Folder=C:\Ticker\OneMoreFeedHandler.
+2020-04-03 16:24:03,102 - CRITICAL - Feedhandler=OneMoreFeedHandler, Status=Failed, Reason="Sendstats file not found", Folder=C:\Ticker\OneMoreFeedHandler. 
+2020-04-03 16:24:24,498 - <134>Apr 03 16:24:24 UK-DTXRST2 SendStatsChecker - Starting Config check for OneMoreFeedHandler.
+2020-04-03 16:24:24,499 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:24:24,499 - <134>Apr 03 16:24:24 UK-DTXRST2 SendStatsChecker - Config check complete with no issues for OneMoreFeedHandler.
+2020-04-03 16:24:24,500 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:36:20,672 - <134>Apr 03 16:36:20 UK-DTXRST2 SendStatsChecker - Starting Config check for OneMoreFeedHandler.
+2020-04-03 16:36:20,673 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:36:20,674 - <134>Apr 03 16:36:20 UK-DTXRST2 SendStatsChecker - Config check complete with no issues for OneMoreFeedHandler.
+2020-04-03 16:36:20,674 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:36:22,200 - <134>Apr 03 16:36:22 UK-DTXRST2 SendStatsChecker - Starting Config check for OneMoreFeedHandler.
+2020-04-03 16:36:22,200 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:36:22,200 - <134>Apr 03 16:36:22 UK-DTXRST2 SendStatsChecker - Config check complete with no issues for OneMoreFeedHandler.
+2020-04-03 16:36:22,201 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:36:24,218 - <134>Apr 03 16:36:24 UK-DTXRST2 SendStatsChecker - Starting Config check for OneMoreFeedHandler.
+2020-04-03 16:36:24,218 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:36:24,219 - <134>Apr 03 16:36:24 UK-DTXRST2 SendStatsChecker - Config check complete with no issues for OneMoreFeedHandler.
+2020-04-03 16:36:24,219 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:36:26,680 - <134>Apr 03 16:36:26 UK-DTXRST2 SendStatsChecker - Starting Config check for SomeFeedhandler.
+2020-04-03 16:36:26,681 - INFO - Starting Config check for SomeFeedhandler. 
+2020-04-03 16:36:26,682 - <130>Apr 03 16:36:26 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-03 16:36:26,682 - CRITICAL - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI 
+2020-04-03 16:36:55,752 - <134>Apr 03 16:36:55 UK-DTXRST2 SendStatsChecker - Starting Config check for OneMoreFeedHandler.
+2020-04-03 16:36:55,753 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:36:55,755 - <134>Apr 03 16:36:55 UK-DTXRST2 SendStatsChecker - Config check complete with no issues for OneMoreFeedHandler.
+2020-04-03 16:36:55,755 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:36:57,010 - <134>Apr 03 16:36:57 UK-DTXRST2 SendStatsChecker - Starting Config check for OneMoreFeedHandler.
+2020-04-03 16:36:57,010 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:36:57,011 - <134>Apr 03 16:36:57 UK-DTXRST2 SendStatsChecker - Config check complete with no issues for OneMoreFeedHandler.
+2020-04-03 16:36:57,012 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:37:49,400 - <134>Apr 03 16:37:49 UK-DTXRST2 SendStatsChecker - Starting Config check for SomeFeedhandler.
+2020-04-03 16:37:49,400 - INFO - Starting Config check for SomeFeedhandler. 
+2020-04-03 16:37:49,402 - <130>Apr 03 16:37:49 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-03 16:37:49,402 - CRITICAL - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI 
+2020-04-03 16:40:00,368 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:40:00,370 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:41:22,423 - INFO - Starting Config check for SomeFeedhandler. 
+2020-04-03 16:41:22,425 - <130>Apr 03 16:41:22 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-03 16:41:22,426 - CRITICAL - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI 
+2020-04-03 16:51:10,872 - INFO - Starting Config check for SomeFeedhandler. 
+2020-04-03 16:51:10,874 - <130>Apr 03 16:51:10 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-03 16:51:10,875 - CRITICAL - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI 
+2020-04-03 16:51:12,670 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:51:12,673 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:51:14,677 - INFO - Starting Config check for SomeOtherFeedhandler. 
+2020-04-03 16:51:14,680 - <130>Apr 03 16:51:14 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeOtherFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker\SomeOtherFeedHandler\NewIce.INI
+2020-04-03 16:51:14,682 - CRITICAL - Feedhandler=SomeOtherFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker\SomeOtherFeedHandler\NewIce.INI 
+2020-04-03 16:51:19,557 - INFO - Starting Config check for OneMoreFeedHandler. 
+2020-04-03 16:51:19,559 - INFO - Config check complete with no issues for OneMoreFeedHandler. 
+2020-04-03 16:51:26,775 - INFO - Starting Config check for SomeFeedhandler. 
+2020-04-03 16:51:26,777 - <130>Apr 03 16:51:26 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-03 16:51:26,778 - CRITICAL - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI 

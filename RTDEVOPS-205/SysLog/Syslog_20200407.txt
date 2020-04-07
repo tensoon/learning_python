@@ -1,0 +1,11 @@
+2020-04-07 09:06:06,421 - <130>Apr 07 09:06:06 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="Sendstats file not found", Folder=C:\Ticker\SomeFeedhandler\SendStats.
+2020-04-07 09:06:06,423 - <130>Apr 07 09:06:06 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-07 09:07:06,443 - <130>Apr 07 09:07:06 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="Sendstats file not found", Folder=C:\Ticker\SomeFeedhandler\SendStats.
+2020-04-07 09:07:06,447 - <130>Apr 07 09:07:06 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-07 09:08:06,458 - <130>Apr 07 09:08:06 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="Sendstats file not found", Folder=C:\Ticker\SomeFeedhandler\SendStats.
+2020-04-07 09:08:06,462 - <130>Apr 07 09:08:06 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-07 09:09:06,475 - <130>Apr 07 09:09:06 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="Sendstats file not found", Folder=C:\Ticker\SomeFeedhandler\SendStats.
+2020-04-07 09:09:06,478 - <130>Apr 07 09:09:06 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker/SomeFeedhandler\NewIce.INI
+2020-04-07 10:24:14,224 - <130>Apr 07 10:24:14 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeOtherFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker\SomeOtherFeedHandler\NewIce.INI
+2020-04-07 10:24:20,088 - <130>Apr 07 10:24:20 UK-DTXRST2 SendStatsChecker - Feedhandler=SomeOtherFeedhandler, Status=Failed, Reason="SendBlockstoMcast set to 0", File=C:\Ticker\SomeOtherFeedHandler\NewIce.INI
+2020-04-07 10:32:07,283 - <130>Apr 07 10:32:07 UK-DTXRST2 SendStatsChecker - Feedhandler=OneMoreFeedHandler, Status=Failed, Reason="Sendstats file not found", Folder=C:\Ticker\OneMoreFeedHandler.
