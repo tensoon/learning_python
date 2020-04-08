@@ -42,4 +42,4 @@ def total_cost(weight):
     print(f"The cheapest option available is ${cost} with {method} shipping.")
 
 
-total_cost(452)
+total_cost(1000)
