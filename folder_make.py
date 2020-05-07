@@ -18,7 +18,5 @@ with open(FolderFiles, "r") as f:
                 os.makedirs(os.path.join(BasePath, servers, folder))
             except OSError:
                 pass
-
-
 def func():
     pass

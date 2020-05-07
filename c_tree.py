@@ -36,7 +36,7 @@ def lights(color, indexes):
 
 
 yellow = []
-red = []
+red = [] 
 green = []
 blue = []
 

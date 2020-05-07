@@ -43,4 +43,3 @@ for file_name in os.listdir(src):
         shutil.copy(full_file_name, dest)
         print(f"{file_name} copied to {dest_srv}")
         os.system("net use * /delete /y 2>&1>null")"""
-
